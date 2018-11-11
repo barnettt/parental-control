@@ -1,13 +1,12 @@
-##Parental Control Service
+# Parental Control Service
 
 You need to have maven installed
 
+## Run code
 run: mvn clean install
-
-In your ide run the test suite or
-
 run: mvn test.
 
+### description
 The customer parental control level is passed from the client to the ParentalControlService.
 
 The value is converted to a ParentalControlLevel and compared.
