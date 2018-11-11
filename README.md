@@ -3,10 +3,11 @@
 You need to have maven installed
 
 ## Run code
-run: mvn clean install
-run: mvn test.
+run: `mvn clean install`
+</br>
+run: `mvn test`
 
-### description
+### Description
 The customer parental control level is passed from the client to the ParentalControlService.
 
 The value is converted to a ParentalControlLevel and compared.
